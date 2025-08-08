@@ -33,7 +33,7 @@ def submit():
 
 @app.route("/berhasil")
 def berhasil():
-    return render_template("berhasil.html")
+    return render_template("indanout.html")
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
